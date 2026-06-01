@@ -2,11 +2,43 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Repository
+## Stack
 
-This is a **blogs** repository owned by `codejiaoer`. It is currently empty — no framework, tooling, or content has been committed yet.
+- **Framework**: [Hexo](https://hexo.io/) — Node.js static site generator
+- **Theme**: landscape (default)
+- **Deployment**: GitHub Actions → GitHub Pages (`https://codejiaoer.github.io/blogs`)
 
-Once a blogging framework or content structure is added, update this file with:
-- Build, dev server, and deploy commands
-- Content authoring workflow (e.g. how to create a new post)
-- High-level architecture (e.g. static site generator config, theme structure, content directory layout)
+## Common Commands
+
+```bash
+# Install dependencies
+npm install
+
+# Start local dev server (http://localhost:4000/blogs/)
+npx hexo server
+
+# Create a new post
+npx hexo new "Post Title"
+
+# Build static files to public/
+npx hexo generate
+
+# Clean build cache
+npx hexo clean
+```
+
+## Content Structure
+
+- `source/_posts/` — blog posts (Markdown)
+- `source/_drafts/` — draft posts (not published)
+- `scaffolds/post.md` — template for new posts
+
+## Deployment
+
+Push to `main` triggers `.github/workflows/deploy.yml`, which runs `hexo generate` and deploys `public/` to GitHub Pages automatically. No manual deploy step needed.
+
+## Configuration
+
+- `_config.yml` — site-wide config (title, URL, theme, permalink)
+- `_config.landscape.yml` — landscape theme config
+- Site URL is set to `https://codejiaoer.github.io/blogs` with `root: /blogs/`
