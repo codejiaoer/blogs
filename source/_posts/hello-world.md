@@ -1,38 +1,29 @@
 ---
-title: Hello World
+title: 欢迎来到我的技术博客
+date: 2026-06-02
+tags:
+  - 博客
+categories:
+  - 随笔
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+你好！欢迎来到 **codejiaoer's Blog**。
 
-### Create a new post
+<!-- more -->
 
-``` bash
-$ hexo new "My New Post"
-```
+## 关于这个博客
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+这里是我记录技术学习与工程实践的地方。内容会涵盖：
 
-### Run server
+- **后端开发** — 服务设计、性能优化、数据库
+- **系统架构** — 分布式系统、微服务、基础设施
+- **编程语言** — 深入理解语言特性与最佳实践
+- **工具与效率** — 开发工具链、自动化、工程规范
 
-``` bash
-$ hexo server
-```
+## 关于我
 
-More info: [Server](https://hexo.io/docs/server.html)
+一名热爱技术的后端工程师，喜欢把复杂的问题想清楚，把清楚的思路写出来。
 
-### Generate static files
+## 开始阅读
 
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+博客会持续更新，欢迎通过 GitHub 关注：[github.com/codejiaoer](https://github.com/codejiaoer)

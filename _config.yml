@@ -4,9 +4,9 @@
 
 # Site
 title: codejiaoer's Blog
-subtitle: ''
-description: ''
-keywords:
+subtitle: '记录技术，沉淀思考'
+description: '专注后端开发与系统架构，分享技术实践与学习笔记'
+keywords: 技术博客,后端开发,系统架构,编程
 author: codejiaoer
 language: zh-CN
 timezone: 'Asia/Shanghai'
