@@ -11,9 +11,6 @@
   "hexo": {
     "version": "8.1.2"
   },
-  "pnpm": {
-    "onlyBuiltDependencies": ["hexo-util"]
-  },
   "dependencies": {
     "hexo": "^8.0.0",
     "hexo-generator-archive": "^2.0.0",
