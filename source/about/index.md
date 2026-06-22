@@ -1,7 +1,6 @@
 ---
 title: 关于
-layout: about
-index: true
+comments: false
 ---
 
 ## 关于我

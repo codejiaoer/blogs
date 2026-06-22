@@ -1,0 +1,110 @@
+# ===================================
+# hexo-theme-indigo (card) 配置
+# 主色调：淡蓝 #5B9BD5
+# ===================================
+
+menu:
+  home:
+    text: 主页
+    url: /
+  archives:
+    url: /archives
+  tags:
+    url: /tags
+  th-list:
+    text: 分类
+    url: /categories
+  github:
+    url: https://github.com/codejiaoer
+    target: _blank
+
+# 头像（可替换为自己的图片路径）
+avatar: /img/avatar.png
+avatar_link: /about
+
+# 品牌图（顶部 banner 图，留空使用纯色）
+brand: false
+
+favicon: /favicon.ico
+
+email: ""
+
+# 主色调 —— 淡蓝色（Material Design Blue 400）
+color: '#5B9BD5'
+
+tags_title: 标签
+archives_title: 归档
+categories_title: 分类
+
+# 文章摘要
+excerpt_render: false
+excerpt_length: 200
+excerpt_link: 阅读全文...
+
+mathjax: false
+archive_yearly: true
+
+# 显示最后更新时间
+show_last_updated: true
+
+# 分享功能
+share: true
+
+# 打赏（不需要则注释掉）
+reward: false
+
+# 站内搜索
+search: true
+
+# 隐藏菜单图标文字（true = 只显示图标）
+hideMenu: true
+
+# 文章目录
+toc:
+  list_number: false
+
+# 文章底部留言（可留空）
+postMessage: false
+
+# 统计（关闭）
+cnzz: false
+baidu_tongji: false
+google_analytics: false
+
+# Less 压缩
+less:
+  compress: true
+
+# 评论（关闭）
+disqus_shortname: false
+uyan_uid: false
+gitment: false
+gitalk: false
+
+valine:
+  enable: false
+
+# 建站年份
+since_year: 2026
+
+# 关于页描述
+about: 专注后端开发与系统架构，分享技术实践与学习笔记。
+
+# 访客计数（关闭）
+visit_counter: false
+
+# CDN（开启，加快图标字体加载）
+cdn: true
+
+# 图片灯箱效果
+lightbox: true
+
+# ICP 备案（国内备案才需要）
+ICP_license: false
+
+# 切换标签页时的标题变化
+title_change:
+  normal: 欢迎回来！
+  leave: 等等，别走~
+
+canonical: false
