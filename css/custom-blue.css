@@ -1,0 +1,127 @@
+/* ============================================
+   淡蓝色主题定制 — codejiaoer's Blog
+   主色：#5B9BD5（晴空蓝）
+   ============================================ */
+
+/* ---- CSS 变量覆盖 ---- */
+:root {
+  --highlight-color: #5B9BD5;
+}
+
+/* ---- 导航栏 ---- */
+.navbar {
+  background-color: #5B9BD5 !important;
+  backdrop-filter: none !important;
+}
+
+.navbar.top-nav-collapse {
+  background-color: #4A8FCA !important;
+}
+
+.navbar a,
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+/* ---- 首页 Banner ---- */
+#board-nav-fixed,
+#banner {
+  background: linear-gradient(135deg, #5B9BD5 0%, #87CEEB 100%) !important;
+}
+
+/* Banner 文字 */
+.banner-subtitle,
+.subtitle,
+.slogan {
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+/* ---- 链接颜色 ---- */
+a {
+  color: #4A8FCA;
+}
+
+a:hover {
+  color: #2E75B6;
+}
+
+/* ---- 文章卡片 hover ---- */
+.post-card:hover,
+.card:hover {
+  box-shadow: 0 6px 24px rgba(91, 155, 213, 0.25) !important;
+}
+
+/* ---- 文章标题链接 ---- */
+.post-title a:hover,
+.index-card a:hover {
+  color: #4A8FCA !important;
+}
+
+/* ---- 目录 (TOC) ---- */
+.toc-link.is-active-link,
+.toc-link:hover {
+  color: #5B9BD5 !important;
+  border-left-color: #5B9BD5 !important;
+}
+
+/* ---- 代码块 ---- */
+.highlight {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* ---- 标签 / 分类 ---- */
+.tag-cloud a,
+.category-list-link {
+  color: #5B9BD5 !important;
+}
+
+.tag-cloud a:hover,
+.category-list-link:hover {
+  color: #2E75B6 !important;
+}
+
+/* ---- 分页按钮 ---- */
+.page-number.current,
+.page-number:hover {
+  background-color: #5B9BD5 !important;
+  border-color: #5B9BD5 !important;
+  color: #fff !important;
+}
+
+/* ---- 返回顶部按钮 ---- */
+#scroll-top-button {
+  background-color: #5B9BD5 !important;
+}
+
+#scroll-top-button:hover {
+  background-color: #4A8FCA !important;
+}
+
+/* ---- 页脚 ---- */
+#footer {
+  background-color: #f0f7ff !important;
+  color: #6c8ebf !important;
+}
+
+#footer a {
+  color: #5B9BD5 !important;
+}
+
+/* ---- 文章内选中文字 ---- */
+::selection {
+  background-color: rgba(91, 155, 213, 0.25);
+}
+
+/* ---- 分割线 ---- */
+hr {
+  border-color: rgba(91, 155, 213, 0.2);
+}
+
+/* ---- 移动端优化 ---- */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #5B9BD5 !important;
+  }
+}
