@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>codejiaoer</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://codejiaoer.github.io/blogs/</id>
+  <link href="https://codejiaoer.github.io/blogs/" rel="alternate"/>
+  <link href="https://codejiaoer.github.io/blogs/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, codejiaoer</rights>
+  <subtitle>记录技术，沉淀思考</subtitle>
+  <title>codejiaoer's Blog</title>
+  <updated>2026-06-22T12:30:56.648Z</updated>
+  <entry>
+    <author>
+      <name>codejiaoer</name>
+    </author>
+    <category term="随笔" scheme="https://codejiaoer.github.io/blogs/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="博客" scheme="https://codejiaoer.github.io/blogs/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <content>
+      <![CDATA[<p>你好！欢迎来到 <strong>codejiaoer’s Blog</strong>。</p><span id="more"></span><h2 id="关于这个博客"><a href="#关于这个博客" class="headerlink" title="关于这个博客"></a>关于这个博客</h2><p>这里是我记录技术学习与工程实践的地方。内容会涵盖：</p><ul><li><strong>后端开发</strong> — 服务设计、性能优化、数据库</li><li><strong>系统架构</strong> — 分布式系统、微服务、基础设施</li><li><strong>编程语言</strong> — 深入理解语言特性与最佳实践</li><li><strong>工具与效率</strong> — 开发工具链、自动化、工程规范</li></ul><h2 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h2><p>一名热爱技术的后端工程师，喜欢把复杂的问题想清楚，把清楚的思路写出来。</p><h2 id="开始阅读"><a href="#开始阅读" class="headerlink" title="开始阅读"></a>开始阅读</h2><p>博客会持续更新，欢迎通过 GitHub 关注：<a href="https://github.com/codejiaoer">github.com&#x2F;codejiaoer</a></p>]]>
+    </content>
+    <id>https://codejiaoer.github.io/blogs/2026/06/01/hello-world/</id>
+    <link href="https://codejiaoer.github.io/blogs/2026/06/01/hello-world/"/>
+    <published>2026-06-01T16:00:00.000Z</published>
+    <summary>
+      <![CDATA[<p>你好！欢迎来到 <strong>codejiaoer’s Blog</strong>。</p>]]>
+    </summary>
+    <title>欢迎来到我的技术博客</title>
+    <updated>2026-06-22T12:30:56.648Z</updated>
+  </entry>
+</feed>
